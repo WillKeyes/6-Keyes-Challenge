@@ -126,3 +126,6 @@ searchForm.addEventListener('submit', function(event) {
 
 // Load search history when the DOM content is loaded
 document.addEventListener('DOMContentLoaded', loadSearchHistory);
+
+// For whatever reason I can get the date from the api on the network tab in the developer tools
+// but it wont populate on the page. 
